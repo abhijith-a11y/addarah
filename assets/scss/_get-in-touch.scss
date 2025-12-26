@@ -1,0 +1,57 @@
+// Get in Touch Section Styles
+.get_in_touch_section {
+	background: #fff;
+	width: 100%;
+
+	.get_in_touch_content {
+		width: 100%;
+		max-width: 800px;
+		margin: 0 auto;
+		text-align: center;
+
+		.global_brands_content_title {
+			margin-bottom:25px;
+
+			h3 {
+				margin-bottom:5px; font-weight:400;
+			}
+
+			p {
+                font-size: 16px;
+				font-weight: 400;
+				color: #ffffff;
+				line-height: 1.6;
+				 margin-top: 0;
+                 margin-bottom: 0;
+				max-width: 600px;
+				margin-left: auto;
+				margin-right: auto;
+             
+
+				@media screen and (max-width: 768px) {
+					font-size: 16px;
+				}
+			}
+		}
+
+		.get_in_touch_actions {
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: center;
+			gap: 20px;
+			margin-top: 10px;
+
+			@media screen and (max-width: 768px) {
+				flex-direction: column;
+				align-items: center;
+				gap: 15px;
+
+				.btn_style {
+					width: 100%;
+					max-width: 300px;
+				}
+			}
+		}
+	}
+}
+

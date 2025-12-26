@@ -1,0 +1,29 @@
+  .connecting_industries_section{ 
+    background: #F6F6F6; 
+  }
+
+  /* Pinned Gallery Styles */
+  .pinned-gallery {
+    position: relative;
+  }
+
+  .pinned-image {
+    box-sizing: border-box;
+    padding-bottom: 300px;
+    position: relative;
+  }
+
+  .pinned-image:first-child {
+    padding-top: 0;
+  }
+
+  .pinned-image:last-child {
+    z-index: 10;
+    padding-bottom: 0px;
+  }
+
+  .pinned-image img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }

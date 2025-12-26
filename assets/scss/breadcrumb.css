@@ -1,0 +1,17 @@
+.breadcrumb_section {
+  background: #F6F6F6;
+}
+
+.breadcrumb_list {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+}
+.breadcrumb_list li {
+  font-size: 16px;
+  padding: 0 20px;
+}
+.breadcrumb_list li a {
+  color: #000;
+}/*# sourceMappingURL=breadcrumb.css.map */

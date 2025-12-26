@@ -1,0 +1,50 @@
+// Main SCSS file
+// Import variables first
+@import 'variable';
+
+// Import mixins
+@import 'mixins';
+
+// Import header styles
+@import 'header';
+
+// Your custom styles go here
+
+@import 'comon';
+
+@import 'base';
+@import 'banner';
+@import 'innovation';
+@import 'blobal-brands';
+@import 'innovative-products';
+@import 'connecting-industries';
+@import 'projects';
+@import 'stay-connected';
+@import 'clients';
+@import 'building-trust';
+@import 'about-us';
+@import 'our_story';
+@import 'mission-vission';
+@import 'history-milestones';
+@import 'leadership-team';
+@import 'global-presence';
+@import 'explore_brands_grid';
+@import 'breadcrumb';
+@import 'product-overview';
+@import 'product-detail';
+@import 'associated-product';
+@import 'enquire-now';
+@import 'products-category-list';
+@import 'service-detail-col-3';
+@import 'contact-information';
+@import 'contact-form';
+@import 'get-in-touch';
+@import 'stack-section';
+@import 'contact-map';
+@import 'media-center-detail';
+@import 'media-center';
+@import 'related-news';
+@import 'careers';
+@import '404';
+@import 'sitemap';
+@import 'footer';

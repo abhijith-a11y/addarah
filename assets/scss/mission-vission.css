@@ -1,0 +1,9 @@
+.mission_vission_grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.mission_vission_grid li {
+  width: 50%;
+  list-style: none;
+  background: rgba(244, 241, 242, 0.15);
+}/*# sourceMappingURL=mission-vission.css.map */

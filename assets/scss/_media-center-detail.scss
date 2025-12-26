@@ -1,0 +1,54 @@
+// Media Center Detail Page Styles
+.media_center_detail_section {
+  background: #fff;  
+  .media_center_detail_content{ width: 100%; padding-left: 80px; padding-right:80px; position: relative;
+
+    .share_buttons_list{ padding: 0; margin: 0;
+        position: absolute; top: 0; left: 0;  color: #173b87;
+        .share_button{ width: 40px; height: 40px; display: inline-flex; align-items: center; justify-content: center;  border: solid 1px #080808;
+             border-radius: 50%;  
+            
+                @media screen and (max-width: 700px) {
+                    width: 35px; height: 35px; padding: 5px;
+                }
+            }
+    
+        li{ padding-bottom: 15px;  font-size: 16px;
+            @media screen and (max-width: 768px) {
+                font-size: 13px;
+            }
+        }
+
+
+        @media screen and (max-width: 700px) {
+            position: unset; gap: 10px; display: flex; flex-wrap: wrap; align-items: center;  
+        }
+    }
+
+
+    @media screen and (max-width: 700px) {
+        padding-left: 0px; padding-right: 0px;
+    }
+}
+}
+ 
+.media_center_detail_header{ width: 100%; font-weight:300; margin-bottom: 20px;
+ h1{
+@include px-rem(40);  color: #000000;  font-weight:300;  line-height: 100%; margin: 0;
+ }
+
+ span{ font-size: 16px; font-weight: 400;  color: #173b87; display: inline-block; margin-top: 5px;
+    @media screen and (max-width: 700px) { font-size: 13px; }
+
+}
+}
+
+.media_center_detail_content_body{ width: 100%; 
+    p{   font-size: 16px; font-weight: 400;
+    
+        @media screen and (max-width: 700px) {
+            font-size: 14px;
+        }
+    }
+    img{ max-width: 100%;}
+}

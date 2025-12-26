@@ -1,0 +1,26 @@
+// Product Detail Page Styles
+.image-block {
+	width: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden; display: flex; flex-wrap: wrap; align-items: center;
+
+	video {
+		width: 100%;
+		 
+		display: block;
+		object-fit: cover;
+	}
+}
+
+.video-block{ height: 614px;
+
+    @media #{$media-1024}{
+        height:  auto;
+    }
+
+    @media #{$media-700}{
+	height:  auto;
+ }
+
+}

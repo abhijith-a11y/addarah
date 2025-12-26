@@ -1,0 +1,110 @@
+.explore_brands_grid{ margin: 0 -0.5%; padding: 0; display: flex; flex-wrap: wrap;
+ li{ list-style: none; width: 33%; padding: 0 0.5%; margin-bottom: 15px;
+ 
+   .brand_slider_item{ background: #252424;}
+ 
+ 
+   @media screen and (max-width: 768px) {
+     width: 50%;
+   }
+ 
+ 
+   @media screen and (max-width: 700px) {
+     width: 100%;
+   }
+ 
+ 
+ 
+ 
+ }
+}
+
+.brand_filter_list{
+  margin-left: auto; width: 67%; display: flex; flex-wrap: wrap; justify-content: flex-end;
+
+
+  @media screen and (max-width: 1024px) {
+    width: 100%;
+  }
+}
+
+.brand_filter_list_inner{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+
+  .brand_filter_label{
+    font-size: 14px;
+    color: #000;
+    margin-right: 5px;
+  }
+
+  li{
+    list-style: none;
+  }
+
+  li:not(.brand_filter_label){
+    width: 25%;
+
+    @media (max-width: 1024px){
+      width: 180px;
+    }
+
+    @media (max-width: 700px){
+      width: 100%;
+    }
+  }
+
+  .filter_select{
+    width: 100%;
+   
+    color: #000;
+    border: 1px solid #dadada;
+    padding: 12px 40px 12px 20px;
+    font-size: 14px;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    cursor: pointer;
+    outline: none;
+    position: relative;
+    background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='12' height='8' viewBox='0 0 12 8'%3E%3Cpath fill='%23888888' d='M6 8L0 0h12z'/%3E%3C/svg%3E");
+    background-repeat: no-repeat;
+    background-position: right 15px center;
+    background-size: 12px 8px;
+
+    &:focus{
+      border-color: #dadada;
+    }
+
+    option{
+      
+      color: #fff;
+      padding: 8px;
+    }
+
+    &::-ms-expand{
+      display: none;
+    }
+  }
+
+  .filter_input{
+    width: 100%;
+    
+    color: #fff;
+    border: 1px solid #dadada;
+    padding: 12px 20px;
+    font-size: 14px;
+    outline: none;
+
+    &::placeholder{
+      color: #888;
+    }
+  }
+}
+
+.load_more_btn_row{ width: 100%; display: flex; flex-wrap: wrap; justify-content: center; margin-top: 25px;}

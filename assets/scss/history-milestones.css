@@ -1,0 +1,10 @@
+.history_milestones_grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.history_milestones_grid .history_milestones_item_1 {
+  width: 50%;
+}
+.history_milestones_grid .history_milestones_item_2 {
+  width: 50%;
+}/*# sourceMappingURL=history-milestones.css.map */
