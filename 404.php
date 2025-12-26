@@ -9,30 +9,6 @@ get_header();
 ?>
 
 <main id="primary" class="site-main">
-<?php
-// Set banner for 404 page
-set_query_var( 'inner_banner_image', get_template_directory_uri() . '/assets/images/projects-banner.jpg' );
-set_query_var( 'inner_banner_title', '404 - Page Not Found' );
-
-get_template_part( 'template-parts/inner-banner' );
-?>
-
-<?php
-// Breadcrumb for 404 page
-$custom_breadcrumb = array(
-	array(
-		'title' => 'Home',
-		'url' => home_url( '/' ),
-	),
-	array(
-		'title' => '404 - Page Not Found',
-		'url' => '',
-	),
-);
-set_query_var( 'breadcrumb_items', $custom_breadcrumb );
-
-get_template_part( 'template-parts/breadcrumb' );
-?>
 
 <section class="error_404_section pt_80 pb_80">
 	<div class="wrap">
